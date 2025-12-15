@@ -20,6 +20,10 @@
        <el-icon-menu></el-icon-menu>
       <span>趋势标记</span>
     </el-menu-item>
+    <el-menu-item index="5">
+       <el-icon-menu></el-icon-menu>
+      <span>通知菜单</span>
+    </el-menu-item>
   </el-menu>
 </template>
 
