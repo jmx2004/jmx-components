@@ -8,7 +8,9 @@
       <el-header>
         <nav-header v-model:collapse="isCollapse"></nav-header>
       </el-header>
-      <router-view></router-view>
+      <el-main class="page-container">
+        <router-view />
+      </el-main>
     </el-container>
   </el-container>
 </template>
@@ -26,6 +28,9 @@ let isCollapse = ref(false)
 .el-header {
   padding: 0;
   border-bottom: 1px solid #eee;
+}
+.page-container {
+  padding: 20px;  
 }
 
 </style>
