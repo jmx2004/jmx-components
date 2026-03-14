@@ -8,6 +8,10 @@ import menu from './menu'
 import progress from './progress'
 import chooseTime from './chooseTime'
 import chooseDate from './chooseDate'
+import input from './input'
+import form from './form'
+import calendar from './calendar'
+import table from './table'
 const components = [
   chooseArea,
   chooseIcon,
@@ -17,7 +21,11 @@ const components = [
   menu,
   progress,
   chooseTime,
-  chooseDate
+  chooseDate,
+  input,
+  form,
+  calendar,
+  table
 ]
 
 export default {

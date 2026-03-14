@@ -12,7 +12,7 @@
 <style lang="scss">
 @use './styles/base.scss' as base;
 @use './styles/ui.scss' as ui;
-.el-popper {
+.notification-popper-class {
     padding: 0 !important;
 }
 </style>

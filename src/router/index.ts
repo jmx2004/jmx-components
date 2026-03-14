@@ -16,7 +16,7 @@ const routes: RouteRecordRaw[] = [
       },
       {
         path:'/chooseArea',
-        component: () => import('../views/chooseArea/index\.vue')
+        component: () => import('../views/chooseArea/index.vue')
       },
       {
         path:'/trend',
@@ -37,7 +37,27 @@ const routes: RouteRecordRaw[] = [
       {
         path:'/chooseTime',
         component: () => import('../views/chooseTime/index.vue')
-      }
+      },
+      {
+        path:'/input',
+        component: () => import('../views/input/index.vue')
+      },
+      {
+        path:'/form',
+        component: () => import('../views/form/index.vue')
+      },
+      {
+        path:'/calendar',
+        component: () => import('../views/calendar/index.vue')
+      },
+      {
+        path:'/table',
+        component: () => import('../views/table/index.vue')
+      },
+      
+      
+
+
     ]
 
   },
